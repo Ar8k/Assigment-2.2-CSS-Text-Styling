@@ -1,0 +1,53 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+    color: dimgray;
+    line-height: 2;
+}
+
+header {
+    background-color: burlywood;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    box-shadow: 0 4px 10px;
+}
+
+header h1{
+    font-size: 3em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0;
+    text-align: center;
+}
+header p {
+    font-size: 1.3em;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.content {
+    max-width: 950px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 1.6em;
+    color: #2a7ae2; 
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 18px;
+    text-align: justify;
+    text-justify: inter-word;
+}
